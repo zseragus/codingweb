@@ -1,0 +1,496 @@
+<title>⭐CodingWeb</title> 
+<link rel="shortcut icon" href="codingweb.ico">
+
+
+<body>
+	
+	<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">CodingWeb</span>
+			<span class="site-desc">Programacion - Codigos - Lenguajes</span>
+		</a> <!-- / #logo-header -->
+
+		<nav>
+			<ul>
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Descarga nuestro programa (Proximamente)</a></li>
+
+			</ul>
+		</nav><!-- / nav -->
+
+	</header><!-- / #main-header -->
+
+	
+	<section id="main-content">
+	
+			
+<div id="ultimo"></div>
+	
+
+	
+</body>
+</html>
+
+<style>
+    #ultimo + div{
+        visibility: hidden;
+        
+    }
+</style>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+				
+				#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+Y por último, con esto estilizaremos el pie de página:
+
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+	
+	
+</style>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+<div class="border border-success p-2 mb-2">Aca te enseñaremos mucho de programacion, ¡Empecemos!</div>
+<div class="valoracion">
+    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+    --><label for="radio1">★</label><!--
+    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+    --><label for="radio2">★</label><!--
+    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+    --><label for="radio3">★</label><!--
+    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+    --><label for="radio4">★</label><!--
+    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+    --><label for="radio5">★</label>
+  </div>
+
+<style>
+.valoracion {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.valoracion input {
+    position: absolute;
+    top: -100px;
+}
+
+
+.valoracion label {
+    float: right;
+    color: #c1b8b8;
+    font-size: 30px; 
+}
+
+.valoracion label:hover,
+.valoracion label:hover ~ label,
+.valoracion input:checked ~ label {
+    color: #ffff00;
+}
+
+
+</style>
+
+<div class="alert alert-primary" role="alert">
+  🔹 ¿Que es la programacion?
+</div>
+
+
+
+<div class="alert alert-secondary" role="alert">
+  
+Es el proceso que involucra el diseño, codificación, mantenimiento, y protección de cualquier fuente de programas. El objetivo principal de la programación informática es la creación de softwares, con el fin de ser ejecutados a través de computadoras, programas o plataformas.
+</div>
+
+<img src="img1.jpg" class="rounded mx-auto d-block" alt="img1.jpg">
+<br>
+</br>
+<div class="alert alert-primary" role="alert">
+  🔹 ¿Lenguajes mas usados y cual te recomendamos?
+</div>
+
+<div class="alert alert-secondary" role="alert">
+  Mas utilizados: Python, C++/C, PHP, 
+  Te recomendamos, para empezar: Python,  lenguaje sencillo de leer y escribir debido a su alta similitud con el lenguaje humano. Además, se trata de un lenguaje multiplataforma de código abierto y, por lo tanto, gratuito, lo que permite desarrollar software sin límites.
+</div>
+
+<div class="alert alert-primary" role="alert">
+  🔹 ¿Como puedo empezar a programar? Tranquilo, ¡Yo te ayudo con estos tips!
+</div>
+
+<div class="alert alert-secondary" role="alert">
+1- Saber ingles
+<br>
+</br>
+2- Dedicarle tiempo
+<br>
+</br>
+3- Hacer cursos
+<br>
+</br>
+4- Haz tu primer proyecto
+<br>
+</br>
+5- Mejorar tu logica de matematicas
+
+</div>
+
+
+<div class="alert alert-warning" role="alert">
+  ¡Vamos futuro programador, tu puedes, no te rindas, sigue adelante y veras que aprenderas mucho!
+</div>
+
+<img src="img2.png" class="rounded mx-auto d-block" alt="img2.ppg">
+<br>
+</br>
+
+<div class="alert alert-primary" role="alert">
+  🔹 Ahora si. te ayudare con todo lo basico de codigo de Python. Vamos!
+</div>
+<div class="alert alert-secondary" role="alert">
+ Para empezar lo basico de codigo, pon el google "Descargar Python" luego, descarga algo para poner el codigo y empezar.
+</div>
+
+<div class="alert alert-info" role="alert">
+    MENSAJE EN PANTALLA:
+ <br>
+</br>
+ print("Mensaje")
+ 
+<br>
+</br>
+
+	VARIABLE:
+	
+	<br>
+</br>
+	variable = 10 / variable= "Red" 
+	<br>
+</br>
+ ¿No entiendes? Yo te explico:
+</div>
+
+<div class="alert alert-info" role="alert">
+  Variables: El componente principal de cualquier lenguaje de programación es el concepto de una variable. Una variable es un nombre que asignamos y un espacio de memoria que reservamos para un valor en nuestro programa.
+</div>
+
+<div class="alert alert-info" role="alert">
+💡 Dato: Escribir un programa "¡Hola, Mundo!" es una tradición en la comunidad de desarrolladores a nivel mundial. La mayoría de los desarrolladores comienzan a aprender programación creando este programa.
+Enteros
+<br>
+</br>
+
+Los enteros son números que no poseen decimales. Puedes comprobar si un número es un entero con la función type(). Si el resultado es <class 'int'>, entonces el número es un entero.
+<br>
+</br>
+
+
+"float": Los floats son números decimales. Puedes detectarlos visualmente ubicando el punto decimal. Si llamamos a la función type() para comprobar el tipo de dato de estos valores.
+
+</div>
+
+<div class="alert alert-dark" role="alert">
+  🔹 Y listo querido programador! Eso es todo, no es mucho por que esta pagina no tiene mucho que ver con codigo. Si no, con aprender teoria de programacion que ¡aunque parezca no importante, es importante!
+</div>
+
+<script type="text/javascript">
+function controlcookies() {
+         // si variable no existe se crea (al clicar en Aceptar)
+    localStorage.controlcookie = (localStorage.controlcookie || 0);
+ 
+    localStorage.controlcookie++; // incrementamos cuenta de la cookie
+    cookie1.style.display='none'; // Esconde la política de cookies
+}
+</script>
+
+ 
+<style type="text/css">
+ 
+/* CSS para la animación y localización de los DIV de cookies */
+ 
+@keyframes desaparecer
+{
+0%		{bottom: 0px;}
+80%		{bottom: 0px;}
+100%		{bottom: -50px;}
+}
+ 
+@-webkit-keyframes desaparecer /* Safari and Chrome */
+{
+0%		{bottom: 0px;}
+80%		{bottom: 0px;}
+100%		{bottom: -50px;}
+}
+ 
+@keyframes aparecer
+{
+0%		{bottom: -38px;}
+10%		{bottom: 0px;}
+90%		{bottom: 0px;}
+100%		{bottom: -38px;}
+}
+ 
+@-webkit-keyframes aparecer /* Safari and Chrome */
+{
+0%		{bottom: -38px;}
+10%		{bottom: 0px;}
+90%		{bottom: 0px;}
+100%		{bottom: -38px;}
+}
+#cookiesms1:target {
+    display: none;
+}
+.cookiesms{	
+	width:100%;
+	height:43px;
+	margin:0 auto;
+	padding-left:1%;
+        padding-top:5px;
+        font-size:20px;
+	clear:both;
+        font-weight: strong;
+color: #333;
+bottom:-50px;
+position:fixed;
+left: 0px;
+background-color: #FFF;
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+transition: bottom 1s;
+-webkit-transition:bottom 1s; /* Safari */
+-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+z-index:999999999;
+}
+ 
+.cookiesms:hover{
+bottom:0px;
+}
+.cookies2{
+background-color: #FFF;
+display:inline;
+opacity:0.95;
+filter:alpha(opacity=95);
+position:absolute; 
+left:1%; 
+top:-30px;
+font-size:15px;
+height:30px;
+padding-left:25px;
+padding-right:25px;
+-webkit-border-top-right-radius: 15px;
+-webkit-border-top-left-radius: 15px;
+-moz-border-radius-topright: 15px;
+-moz-border-radius-topleft: 15px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+}
+ 
+/* Fin del CSS para cookies */
+ 
+</style>
+
+<div class="cookiesms" id="cookie1">
+Este sitio web usa cookies para mejorar tu experiencia al navegar en CodingWeb!</a> -  
+<button onclick="controlcookies()">Aceptar</button>
+<div  class="cookies2">Política de cookies + </div>
+</div>
+<script type="text/javascript">
+if (!localStorage.controlcookie>0){ 
+cookie1.setAttribute("style","animation: desaparecer 5s;-webkit-animation: desaparecer 5s;");
+}
+</script>
+
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="facebook.jfif" width="32" height="32">
+            <p><a href="https://m.facebook.com/Coding-Web-111229944995960" target="_blank">Nuestra pagina<br>Facebook</a></p>
+        </li>
+        <li>
+            <img src="twitter.png" width="32" height="32">
+            <p><a href="https://twitter.com/scayermc" target="_blank">Nuestra pagina<br>Twitter</a></p>
+        </li>
+        <li>
+            <img src="youtube.png" width="32" height="32">
+            <p><a href="https://youtube.com/channel/UCQAHsB9wkOwcphmnTKrAT7g" target="_blank">Nuestra pagina<br>YouTube</a></p>
+        </li>
+        <li>
+            <img src="tiktok.jfif" width="32" height="32">
+            <p><a href="https://tiktok.com/@codingweboficial" target="_blank">Nuestra pagina<br>TikTok</a></p>
+        </li>
+    </ul>
+</div>
+<style>
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+</style>
+
+
+
+
+ 
+
+
+
